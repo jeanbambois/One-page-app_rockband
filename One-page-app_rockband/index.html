@@ -8,23 +8,23 @@
 
 	<body >
 		<div id="blocpage">
+			<header>
+				<h1 id="main_title">One-page App</h1>
+				<img id="img_header" src="img/regularshow.png" onclick="rotationImages()">
+			</header>
 
-			<h1 id="main_title">One-page App</h1>
-			<img id="img_header" src="img/regularshow.png" onclick="rotationImages()">
+			<div id="main_sreen">
+				<aside id="menu">
+					<p onclick="request()" class="link">Lien 1</p>
+					<p onclick="request()" class="link">Lien 2</p>
+					<p onclick="request()" class="link">Lien 3</p>
+				</aside>
 
-			<div class="div">
-				<p class="para">Element 1</p>
-				<p class="para">Element 2</p>
-				<p class="para">Element 3</p>
-				<p class="para">Element 4</p>
-
+				<div class="content">
+					<p>Hello</p>
+				</div>
 			</div>
 
-			<aside>
-				<p onclick="request()" class="link">Lien 1</p>
-				<p onclick="request()" class="link">Lien 2</p>
-				<p onclick="request()" class="link">Lien 3</p>
-			</aside>
 		</div>
 
 		<script src="https://code.jquery.com/jquery-3.4.1.js"
@@ -32,7 +32,7 @@
 				crossorigin="anonymous">
 		</script>
 		<script src="./scripts/one-page_app.js"></script>
-		<script src="./scripts/rotation_img.js"></script>
+		<!-- <script src="./scripts/rotation_img.js"></script> -->
 		<script src="./Ajax_request.js"></script>
 	</body>
 </html>
