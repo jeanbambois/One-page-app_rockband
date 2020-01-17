@@ -1,0 +1,30 @@
+*
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+#blocpage
+{
+	max-width: 1000px;
+	min-width: 500px;
+
+	background-color: #AAAAAA;
+}
+
+div
+{
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	background-color: blue;
+}
+
+p
+{
+	border: solid black 2px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+
+	color: white;
+	background-color: black;
+}
