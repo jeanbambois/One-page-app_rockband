@@ -12,11 +12,33 @@
 	background-color: #AAAAAA;
 }
 
+header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #FF7756;
+}
+
+#main_sreen
+{
+	display: flex;
+	flex-direction: row;
+}
+
 div
 {
 	padding: 10px 10px 10px 10px;
 	margin: 10px 10px 10px 10px;
-	background-color: blue;
+	
+	/*border: solid black 2px;*/
+}
+
+aside
+{
+	border: solid red 2px;
 }
 
 p
